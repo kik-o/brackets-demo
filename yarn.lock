@@ -9690,6 +9690,11 @@
   "resolved" "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz"
   "version" "3.0.1"
 
+"json-format@^1.0.1":
+  "integrity" "sha1-FD9n5irxKda//tKIpGJl6iPQ3ww="
+  "resolved" "https://registry.npmjs.org/json-format/-/json-format-1.0.1.tgz"
+  "version" "1.0.1"
+
 "json-loader@^0.5.7":
   "integrity" "sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w=="
   "resolved" "https://registry.npmjs.org/json-loader/-/json-loader-0.5.7.tgz"
@@ -11003,6 +11008,15 @@
   dependencies:
     "config-chain" "^1.1.11"
     "pify" "^3.0.0"
+
+"npm-force-resolutions@^0.0.10":
+  "integrity" "sha512-Jscex+xIU6tw3VsyrwxM1TeT+dd9Fd3UOMAjy6J1TMpuYeEqg4LQZnATQO5vjPrsARm3und6zc6Dii/GUyRE5A=="
+  "resolved" "https://registry.npmjs.org/npm-force-resolutions/-/npm-force-resolutions-0.0.10.tgz"
+  "version" "0.0.10"
+  dependencies:
+    "json-format" "^1.0.1"
+    "source-map-support" "^0.5.5"
+    "xmlhttprequest" "^1.8.0"
 
 "npm-run-path@^2.0.0":
   "integrity" "sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8="
@@ -14181,7 +14195,7 @@
     "source-map-url" "^0.4.0"
     "urix" "^0.1.0"
 
-"source-map-support@^0.5.17", "source-map-support@^0.5.19", "source-map-support@~0.5.12", "source-map-support@~0.5.19":
+"source-map-support@^0.5.17", "source-map-support@^0.5.19", "source-map-support@^0.5.5", "source-map-support@~0.5.12", "source-map-support@~0.5.19":
   "integrity" "sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw=="
   "resolved" "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.19.tgz"
   "version" "0.5.19"
@@ -16302,6 +16316,11 @@
   "integrity" "sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4="
   "resolved" "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz"
   "version" "1.5.5"
+
+"xmlhttprequest@^1.8.0":
+  "integrity" "sha1-Z/4HXFwk/vOfnWX197f+dRcZaPw="
+  "resolved" "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz"
+  "version" "1.8.0"
 
 "xss@^1.0.6":
   "integrity" "sha512-3MgPdaXV8rfQ/pNn16Eio6VXYPTkqwa0vc7GkiymmY/DqR1SE/7VPAAVZz1GJsJFrllMYO3RHfEaiUGjab6TNw=="

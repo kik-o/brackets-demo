@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-inline-svg": "0.0.8",
     "gatsby-transformer-sharp": "^3.0.0",
+    "npm-force-resolutions": "^0.0.10",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -38,11 +39,15 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "resolutions": {
+    "babel-plugin-remove-graphql-queries": "2.9.12"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
