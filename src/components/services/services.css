@@ -1,0 +1,103 @@
+.card__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+  gap: 40px;
+}
+
+.card {
+  font-family: "Inter";
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  width: 370px;
+  height: 240px;
+  background: #ffffff;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 300px;
+  white-space: nowrap;
+}
+
+.card__thumbnail {
+  position: relative;
+  bottom: 365px;
+  right: -145px;
+  z-index: 11;
+  max-width: 265px;
+}
+
+div.card__container > div:nth-child(3) > img {
+  max-width: 300px;
+  right: -200px;
+  bottom: 345px;
+}
+
+.card__link {
+  color: #f65928;
+  font-size: 14.4px;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 20;
+}
+
+.card__link > .arrow {
+  stroke: #f65928;
+  margin-left: 4px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  html {
+    overflow: visible;
+  }
+
+  .card__container {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-top: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    overflow: visible;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}
